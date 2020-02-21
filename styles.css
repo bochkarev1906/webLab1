@@ -3,7 +3,7 @@ body{
     background: linear-gradient(0deg, rgba(0,143,255,1) 20%, rgba(115,221,87,1) 67%);
     color: rgb(0, 0, 0);
 }
-header{
+.header{
     text-align: center;
     color: white;
     border: 4px ridge white;
@@ -11,19 +11,31 @@ header{
     border-radius: 12px;
     margin-bottom: 10px;
 }
-nav{
+.nav{
     color: white;
     border: 2px ridge white;
     background-color: rgb(19, 163, 62);
     border-radius: 12px;
     font-weight: bold;
 }
-ul li{
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.li_nav{
     text-align: center;
     width: 25%;
     margin-left: 5%;
     display: inline-block;
     font-size: 18pt;
+}
+.li_main{
+    float: left;
+    width: 28%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 2.5%;
 }
 .auth{
     margin-left: 85%;
@@ -32,14 +44,12 @@ ul li{
 .pic{
     float: left;
 }
-.quote{
-    margin-left: 100px;
+.blockquote{
     font-size: 40px;
     margin-top: 240px;
 }
 .photo{
     text-align: center;
-    border: 2px, ridge, black;
     border-radius: 30%;
     height: 520px;
     width: 740px;
@@ -50,36 +60,47 @@ h2{
     text-align: center;
     margin-top: 250px;
 }
-h3{
+.h3{
     color: black;
     border: 2px solid black;
     background-color: rgb(71, 163, 224);
     text-align: center;
 }
-.comment{
-    font-size: 16pt;
-    margin-left: 10px;
+
+.buttonOrder{
+    padding-top: 15px;
+    text-align: center;
     margin-top: 500px;
 }
+.buttonOrder a{
+    
+    text-decoration: none;
+    padding: 14px 0;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 15px;
+    background: rgb(35, 67, 155);
+    width: 22%;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.comment{
+    margin-top: 50px;
+    color: black;
+}
+
 footer{
     bottom: 0;
 }
-.parts{
-    float: left;
-    width: 28%;
+.li_network{
     text-align: center;
-    margin-right: 2%;
-    margin-left: 2.5%;
+    display: inline-block;
 }
-.header1{
-    text-align: center;
-}
+
 .text1{
     text-align: justify;
 }
-
-
-
 .title_first{
     text-align: center;
     
