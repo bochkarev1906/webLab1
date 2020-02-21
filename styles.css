@@ -89,6 +89,9 @@ h2{
     margin-top: 50px;
     color: black;
 }
+.block{
+    display: block;
+}
 
 footer{
     bottom: 0;
