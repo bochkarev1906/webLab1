@@ -9,14 +9,15 @@
 <body>
     <header class="header">
         <h1>Магазин "Рыбак"</h1>
+        <nav class="nav">
+            <ul>
+              <li class="li_nav"><a href="#">Главная</a></li>
+              <li class="li_nav"><a href="#">Каталог товаров</a></li>
+              <li class="li_nav"><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav class="nav">
-        <ul>
-          <li class="li_nav"><a href="#">Главная</a></li>
-          <li class="li_nav"><a href="#">Каталог товаров</a></li>
-          <li class="li_nav"><a href="#">Контакты</a></li>
-        </ul>
-    </nav>
+    
     <div class="pic">
         <img src="fishing.jpg" class="photo" alt="Рыбалка">
     </div>
@@ -49,22 +50,23 @@
     
     <form>
         <h3 class="comment">Оставьте свой комментарий:</h3>
-        <label>Напишите комментарий</label>
-        <br><textarea placeholder="Ваш комментарий:"
+        <label for="comment">Напишите комментарий</label>
+        <br><textarea placeholder="Ваш комментарий:" id="comment"
             rows="5"
             required
             cols="35"
             name="comment"></textarea></br>
-        <label>Напишите вашt имя</label>
-        <br><input type="text" 
-             name="email"
+        
+        <label for="name">Напишите ваше имя</label>
+        <br><input type="text" id="name" 
+             name="name"
              placeholder="Евгений"></input></br>
-        <label>Напишите ваш email</label>
-        <br><input type="email" 
+        <label for="email">Напишите ваш email</label>
+        <br><input type="email" id="email"
              name="email"
              placeholder="bochkarev@mail.ru"></input></br>
-         <label>Напишите ваш телефон</label>
-         <br><input type="tel"
+         <label for="tel">Напишите ваш телефон</label>
+         <br><input type="tel" id="tel"
              name="phone"
              placeholder="+7(911)-290-20-81"></input></br>
         <p><input type="submit" value="Отправить"></p>
